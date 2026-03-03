@@ -2,7 +2,7 @@
    Pera - Premium E-Commerce JavaScript
 ========================================= */
 
-// All 8 Products Database
+// All 18 Products Database
 const products = [
     {
         id: "1",
@@ -59,6 +59,77 @@ const products = [
         category: "Apparel",
         price: 120.00,
         image: "https://images.unsplash.com/photo-1520630799732-44df07c6f0d4?auto=format&fit=crop&w=800&q=80"
+    },
+    // --- 10 NEW PRODUCTS ADDED ---
+    {
+        id: "9",
+        name: "Onyx Marble Chess Set",
+        category: "Home Decor",
+        price: 145.00,
+        image: "https://images.unsplash.com/photo-1589816556555-5fef6066dca0?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: "10",
+        name: "Handcrafted Blue Pottery Plate",
+        category: "Home Decor",
+        price: 35.00,
+        image: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: "11",
+        name: "Premium Leather Duffle Bag",
+        category: "Accessories",
+        price: 180.00,
+        image: "https://images.unsplash.com/photo-1547949003-9792a18a2601?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: "12",
+        name: "Ajrak Block Print Scarf",
+        category: "Apparel",
+        price: 40.00,
+        image: "https://images.unsplash.com/photo-1584486638061-6d7ec21a22bd?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: "13",
+        name: "Copper Hammered Serving Bowl",
+        category: "Home Decor",
+        price: 55.00,
+        image: "https://images.unsplash.com/photo-1583526563606-de019e072b22?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: "14",
+        name: "Export Quality Mangoes (Box)",
+        category: "Food",
+        price: 65.00,
+        image: "https://images.unsplash.com/photo-1553279768-865429ef193f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: "15",
+        name: "Camel Skin Painted Lamp",
+        category: "Home Decor",
+        price: 95.00,
+        image: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: "16",
+        name: "Traditional Khussa Shoes",
+        category: "Footwear",
+        price: 45.00,
+        image: "https://images.unsplash.com/photo-1601002575027-46321eeef3c1?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: "17",
+        name: "Himalayan Pink Salt Cooking Block",
+        category: "Food",
+        price: 50.00,
+        image: "https://images.unsplash.com/photo-1622484210996-3392410a5601?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: "18",
+        name: "Handmade Wooden Jewelry Box",
+        category: "Accessories",
+        price: 60.00,
+        image: "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format&fit=crop&w=800&q=80"
     }
 ];
 
