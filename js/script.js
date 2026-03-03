@@ -58,7 +58,7 @@ const products = [
         name: "Kashmir Pashmina Shawl",
         category: "Apparel",
         price: 120.00,
-        image: "https://images.unsplash.com/photo-1520630799732-44df07c6f0d4?auto=format&fit=crop&w=800&q=80"
+        image: "https://images.unsplash.com/photo-1606822409748-0c6444fd3fdf?auto=format&fit=crop&w=800&q=80"
     },
     // --- 10 NEW PRODUCTS ADDED ---
     {
@@ -66,7 +66,7 @@ const products = [
         name: "Onyx Marble Chess Set",
         category: "Home Decor",
         price: 145.00,
-        image: "https://images.unsplash.com/photo-1589816556555-5fef6066dca0?auto=format&fit=crop&w=800&q=80"
+        image: "https://images.unsplash.com/photo-1610631066894-62452ccb9c7c?auto=format&fit=crop&w=800&q=80"
     },
     {
         id: "10",
@@ -87,7 +87,7 @@ const products = [
         name: "Ajrak Block Print Scarf",
         category: "Apparel",
         price: 40.00,
-        image: "https://images.unsplash.com/photo-1584486638061-6d7ec21a22bd?auto=format&fit=crop&w=800&q=80"
+        image: "https://images.unsplash.com/photo-1614022807952-4fc46bc84aef?auto=format&fit=crop&w=800&q=80"
     },
     {
         id: "13",
