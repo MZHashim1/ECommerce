@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pera - Premium Pakistani Exports</title>
+    <meta name="description" content="Discover authentic, premium Pakistani export quality products including leather goods, Himalayan salt, and hand-crafted artifacts.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    <!-- Cursor Follower -->
+    <div class="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Pera<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="nav-icons">
+                <div class="cart-icon" id="cart-toggle">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count">0</span>
+                </div>
+                <div class="mobile-menu" id="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav-menu glass" id="mobile-nav">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=1600&q=80" alt="Hero Background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <span class="badge">Premium Imports</span>
+            <h1 class="reveal-text">Authentic Craftsmanship, <br><span>Global Appeal</span>.</h1>
+            <p class="reveal-text delay-1">Discover the finest export-quality products from Pakistan, meticulously handcrafted and delivered globally.</p>
+            <div class="hero-btns reveal-text delay-2">
+                <a href="shop.html" class="btn btn-primary">Explore Collection</a>
+                <a href="about.html" class="btn btn-outline">Our Story</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Products -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured <span>Exports</span></h2>
+                <p>Our most sought-after products, handpicked for you.</p>
+            </div>
+            <div class="product-grid" id="featured-products">
+                <!-- Products dynamically injected via JS, but we hardcode a few for SEO/static view -->
+                <div class="product-card glass">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80" alt="Premium Leather Jacket">
+                        <div class="overlay">
+                            <button class="add-to-cart-btn" data-id="1">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">Apparel</span>
+                        <h3>Premium Leather Jacket</h3>
+                        <p class="price">$199.99</p>
+                    </div>
+                </div>
+                
+                <div class="product-card glass">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1544976451-246e7f226cd9?auto=format&fit=crop&w=800&q=80" alt="Himalayan Pink Salt Lamp">
+                        <div class="overlay">
+                            <button class="add-to-cart-btn" data-id="2">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">Home Decor</span>
+                        <h3>Himalayan Pink Salt Lamp</h3>
+                        <p class="price">$45.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card glass">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80" alt="Handcrafted Leather Shoes">
+                        <div class="overlay">
+                            <button class="add-to-cart-btn" data-id="3">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">Footwear</span>
+                        <h3>Authentic Peshawari Chappal</h3>
+                        <p class="price">$85.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card glass">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1520630799732-44df07c6f0d4?auto=format&fit=crop&w=800&q=80" alt="Kashmir Pashmina Shawl">
+                        <div class="overlay">
+                            <button class="add-to-cart-btn" data-id="8">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">Apparel</span>
+                        <h3>Kashmir Pashmina Shawl</h3>
+                        <p class="price">$120.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-container">
+                <a href="shop.html" class="btn btn-outline">View All Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features glass-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-gem"></i>
+                    <h3>Premium Quality</h3>
+                    <p>Only the finest export-grade materials make it to our collection.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-globe-americas"></i>
+                    <h3>Global Shipping</h3>
+                    <p>Fast and reliable shipping to destinations all around the world.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Authentic Craft</h3>
+                    <p>Supporting local artisans and preserving generation-old techniques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>Pera<span>.</span></h2>
+                    <p>Bringing the best of Pakistan's exports directly to your doorstep with premium quality and authenticity.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="shop.html">Apparel</a></li>
+                        <li><a href="shop.html">Home Decor</a></li>
+                        <li><a href="shop.html">Footwear</a></li>
+                        <li><a href="shop.html">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pera. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-sidebar glass" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart" id="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Items injected by JS -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-price">$0.00</span>
+            </div>
+            <button class="btn btn-primary w-100">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
