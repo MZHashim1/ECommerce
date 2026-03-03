@@ -101,7 +101,7 @@ const products = [
         name: "Export Quality Mangoes (Box)",
         category: "Food",
         price: 65.00,
-        image: "https://images.unsplash.com/photo-1553279768-865429ef193f?auto=format&fit=crop&w=800&q=80"
+        image: "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=800&q=80"
     },
     {
         id: "15",
@@ -122,7 +122,7 @@ const products = [
         name: "Himalayan Pink Salt Cooking Block",
         category: "Food",
         price: 50.00,
-        image: "https://images.unsplash.com/photo-1622484210996-3392410a5601?auto=format&fit=crop&w=800&q=80"
+        image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=800&q=80"
     },
     {
         id: "18",
